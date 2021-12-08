@@ -1,0 +1,53 @@
+:root{
+    --header-background-color: #113B47;
+    --header-background-color: #113B47;
+    --header-foreground-color: #113B47;
+    --footer-background-color: #113B47;
+    --footer-foreground-color: white;
+    --nav-foreground-color: #84BFF5;
+    --nav-link-background-color: red;
+}
+header{
+    color:var(--header-foreground-color);
+    background-color: var(--header-background-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border-top: 1em solid #113B47 !important;
+    border-bottom: 1em;
+}
+footer{
+    color:var(--footer-foreground-color);
+    background-color: var(--footer-background-color);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+nav.bg-dark{
+    color:var(--nav-foreground-color);
+    background-color: var(--nav-background-color) !important;
+}
+button.navbar-toggler{
+    color:var(--nav-link-background-color) !important;
+    
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #8ba5ac;
+}
+
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    
+}
+.form-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    background: #ffffff;
+    background-image: url('https://www.simplyrecipes.com/thmb/52FAbqwMY-ZDhx2ogNm8vpFx07M=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-4-82c60893fcad4ade906a8a9f59b8da9d.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: soft-light;
+    background-size: 100% 100%;
+    border: 10px solid #f2f2f2;
+    }
